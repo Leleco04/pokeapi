@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokédex</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="nav-bar">
+            <ul>
+                <a href="#">
+                    <li>Link 1</li>
+                </a>
+                <a href="#">
+                    <li>Link 2</li>
+                </a>
+                <a href="#">
+                    <li>Link 3</li>
+                </a>
+            </ul>
+        </header>
+        <form action="">
+            <div class="d-flex justify-content-center align-items-center altura">
+                <div class="d-grid pesquisa-container">
+                    <p id="titulo">
+                        <span class="amarelo">PESQUISAR</span>
+                        <span class="azul">POKEMON</span>
+                    </p>
+                    <input
+                        type="text"
+                        id="input-pesquisar"
+                        placeholder="Nome do pokemon"
+                        class="row"
+                    >
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-primary mt-3 w-50 h-50" class="row">PESQUISAR...</button>
+                    </div>
+                </div>
+                <div class="pokemon-container text-start">
+                    <div class="d-flex justify-content-center">
+                        <div class="div-imagem"></div>
+                    </div>
+                    <div class="informacoes">
+                        <p class="mt-3">Nome: <span></span></p>
+                        <p>Habilidades: <span></span></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
