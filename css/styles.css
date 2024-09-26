@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#input-pesquisar {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 20rem;
+    padding-left: 1rem;
+    outline: none;
+    background-color: transparent;
+}
+
+.pesquisa-container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 10rem;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 50rem;
+}
+
+#botao-pesquisar {
+    border-radius: 25px;
+    border: 1px solid #000;
+    margin-top: 6rem;
+    width: 10rem;
+    height: 3rem;
+    transition: all 0.25s ease;
+}
+
+#botao-pesquisar:hover {
+    transform: scale(1.05);
+    transition: all 0.25s ease;
+}
+
+.altura {
+    height: 90vh;
+}
+
+#titulo {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.amarelo {
+    color: rgb(214, 214, 69);
+}
+
+.azul {
+    color: rgb(85, 85, 255);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+li {
+    margin-right: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-size: 20px;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+
+.pokemon-container {
+    width: 30rem;
+    border: 1px solid #000;
+    height: 50rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.div-imagem {
+    border: 1px solid #ffed00;
+    width: 25rem;
+    height: 18rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 #ffed00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-pokemon {
+    width: 25rem;
+    height: 18rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.informacoes {
+    margin-left: 2.65rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.esconder {
+    display: none;
+}
+
+.exibir {
+    display: block;
+}
+
+.barra {
+    height: 1rem;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.barras-esconder {
+    opacity: 0;
+}
+
+.barras-mostrar {
+    opacity: 1;
+}
+
+#barras {
+    margin-left: 2.65rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+}
